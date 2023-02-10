@@ -1,16 +1,13 @@
 import React from 'react'
-import Link from 'next/link'
-// import  { AiOutlineShoppingCart } from 'react-icon/ai'
-
-import { FaBeer } from 'react-icons/fa';
+import { AiFillInstagram,AiOutlineTwitter } from 'react-icons/ai'
 const Footer = () => {
   return (
-    <div className="navbar-container">
-      <p className="logo">
-        <Link href="/">Jsm HeadPhones</Link>
-      </p>
-      <h3> Lets go for a <FaBeer />? </h3>
-      {/* <button type="button" className="cart-icon" onClick=""><AiOutlineShoppingCart /></button> */}
+    <div className="footer-container">
+    <p>2023 JSM  Headphones All rights reserved</p>
+    <p className="icons">
+      <AiFillInstagram/>
+      <AiOutlineTwitter/>
+    </p>
     </div>
   )
 }
